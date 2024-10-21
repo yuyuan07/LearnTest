@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 
 public class GroupOnMethod {
-
+    //测试
     @Test(groups = "server")
     public void test1(){
         System.out.println("this is server test method 1111111");
