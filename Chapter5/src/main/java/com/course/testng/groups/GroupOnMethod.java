@@ -8,17 +8,17 @@ public class GroupOnMethod {
 
     @Test(groups = "server")
     public void test1(){
-        System.out.println("this is server test method 111111");
+        System.out.println("this is server test method 1111111");
     }
 
     @Test(groups = "server")
     public void test2(){
-        System.out.println("this is server test method 222222");
+        System.out.println("this is server test method 2222222");
     }
 
     @Test(groups = "client")
     public void test3(){
-        System.out.println("this is client test method 333333");
+        System.out.println("this is client test method 3333333");
     }
 
     @Test(groups = "client")
